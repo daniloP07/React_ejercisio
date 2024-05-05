@@ -1,0 +1,50 @@
+.Card {
+    width: 400px;
+    height: 450px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px #333;
+    background-color: rgb(70, 68, 161);
+    padding: 10px;
+    text-align: center;
+    border: 1px solid white;
+    gap: 10;
+}
+.Card:hover {
+    transform: scale(1.1); /* Aumenta el tamaño de la tarjeta al 110% al pasar el cursor */
+  }
+.Card img{
+    width: 300px; /* Ajusta el ancho de la imagen al 100% del contenedor */
+  height: 200px; /* Permita que la altura de la imagen se ajuste automáticamente */
+  object-fit: cover;
+}
+
+
+h2{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+p{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 10px;
+    margin-top: 10px;
+  font-size: 14px; 
+}
+
+.container{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+img{
+    height: auto;
+    width: 850px;
+}
